@@ -1,0 +1,695 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    word-spacing: 0px;
+}
+
+header {
+    width: 100%;
+    height: 750px;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 160px;
+    background-color: #410C00;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-left ul {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav-right ul {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+
+.left li {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.right li {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+}
+
+.logo {
+    width: 220px;
+    height: 75px;
+}
+
+.video_content {
+    position: relative;
+    bottom: 60%;
+    left: 300px;
+}
+
+.video {
+    width: 100%;
+    height: 600px;
+    
+}
+
+video {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.video_content h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.video_content h1 {
+    color: white;
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+
+.video_content button {
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 20px 35px;
+    background-color: rgb(0, 0, 108);
+    border: none;
+    display: block;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+}
+.video_content button:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    
+}
+.heading button {
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 108);
+    border: none;
+    padding: 20px 35px;
+    display: block;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+}
+.heading button:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    
+}
+
+
+.almond-section {
+    width: 100%;
+    height: 650px;
+    background-color: #e5ac49;
+    
+}
+
+.almond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 100%;
+}
+
+.almond-image img {
+    width: 600px;
+    height: 200px;
+    position: relative;
+    animation: almond 6s infinite;
+}
+@keyframes almond {
+    0% {
+        top: 50px;
+    }
+    50% {
+        top: 0px;
+    }
+    100% {
+        top: 50px;
+    }
+}
+.heading h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.heading h1 {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.too-section .divone {
+    width: 100px;
+    height: 10px;
+    background-color: #ae0919;
+}
+.divtwo {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.too-section {
+    width: 100%;
+    height: 650px;
+    background-color: rgb(250, 248, 248);
+}
+.too-section h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    color: #410C00;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.divthre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.divtwo h5 {
+    color: #410C00;
+    font-size: 20px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.divtwo button {
+    position: relative;
+    left: 20%;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 20px 50px;
+    background-color: rgb(0, 0, 108);
+    border: none;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 1.4px;
+
+}
+.divtwo button:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    
+}
+.too-section img:hover {
+    transform: scale(1.2);
+    transition: all ease 2s;
+}
+.divtwo h5:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    color: blue;
+}   
+.thre-section {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.393);
+    background-image: url(https://lhcdn.mars.com/adaptivemedia/rendition/id_c38099efd7a9f0763feffe2dd3d6d3ff1baaf63e/name_c38099efd7a9f0763feffe2dd3d6d3ff1baaf63e.jpg);
+}
+.bars {
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    background-color: #410C00;
+    border-radius: 25px;
+    border: none;
+}
+.bars:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.bars img {
+    width: 250px;
+    height: 250px;
+}
+.popcorn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bars h5 {
+    padding-top: 15%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bars h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bars button {
+    color: white;
+    font-size: 13px;
+    border-radius: 30px;
+    padding: 20px 20px;
+    background-color: rgb(0, 0, 108);
+    border: none;
+    font-weight: 500;
+}
+.bars button:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+.popcornleft h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.popcornleft h1 {
+    padding: 40px 100px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+.popcornleft button {
+    color: white;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    background-color: rgb(0, 0, 108);
+    border: none;
+    font-weight: 500;
+}
+.popcornleft button:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+.popcornleft{
+    text-align: center;
+}
+
+
+.fo-section {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://lhcdn.mars.com/cdn-cgi/image/width=768,height=450,f=auto,quality=90/adaptivemedia/rendition/id_abb4b2f9448a7eaeb07bb6718db3c0f827448607/name_abb4b2f9448a7eaeb07bb6718db3c0f827448607.jpg);
+}
+.divfo {
+    width: 100px;
+    height: 10px;
+    background-color: #ae0919;
+}
+.fo-section h5 {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.fo-section h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    padding: 30px;
+}
+.fo-section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 30px;
+}
+.fo-section button {
+    color: white;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    background-color: rgb(0, 0, 108);
+    border: none;
+    font-weight: 500;
+    margin-top: 30px;
+
+}
+.fo-section button:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+.fayf-section {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.snickers.com/cdn-cgi/image/width=1440,height=580,f=auto,quality=90/sites/g/files/fnmzdf616/files/2023-06/SNK_Hi_Protein_Desktop_2880x1160.png);
+}
+.footerone {
+    padding-left: 8%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #c28b2b;
+}
+.footerone ul {
+    display: flex;
+    gap: 30px;
+}
+.footerone li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color:  #410C00;
+}
+.footerone li:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    color: blue;
+}
+.footertoo {
+    padding-top: 30px;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+.footertoo h5 {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footertoo i {
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+}
+.footertoo li {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.footerthre {
+    padding-top: 30px;
+    width: 100%;
+    height: 180px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.footerthre h5 {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footerthre button {
+    color:rgb(0, 0, 108);
+    font-size: 14px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    background-color: white;
+    border: none;
+    
+}
+.footerthre h4 {
+    font-size: 16px;
+    color: white;
+}
+.footerthre b {
+    font-size: 14px;
+    color: white;
+}
+hr {
+    width: 84%;
+    margin-left: 8%;
+}
+footer {
+    background-color: #410C00;
+    width: 100%;
+    height: 750px;
+}
+.footerfo h1 {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    margin-left: 8%;
+    
+}
+.footerfo button {
+    margin-top: 20px;
+    margin-left: 8%;
+    color:white;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 20px 50px;
+    border: 2px solid white;
+    background-color: #410C00;
+}
+.footerfo button:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+@media (max-width: 750px) {
+    header {
+        height: 50vh;
+    }
+    .navbar {
+        height: 8vh;
+    }
+    .nav-left li {
+        opacity: 0;
+    }
+    .nav-right li {
+        opacity: 0;
+    }
+    .nav-left img {
+        margin-left: 40px;
+        width: 150px;
+        height: 50px;
+    }
+
+    ul {
+        display: flex;
+    }
+    .video_content {
+        position: relative;
+        bottom: 60%;
+        left: 20%;
+    }
+    .video_content h5 {
+        font-size: 12px;
+    }
+    .video_content h1 {
+        font-size: 16px;
+    }
+    .video_content button {
+        font-size: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .almond img {
+        width: 150px;
+        height: 50px;
+    }
+    .heading h5 {
+        font-size: 12px;
+    }
+    .heading h1 {
+        font-size: 16px;
+    }
+    .heading button {
+        font-size: 10px;
+        width: 150px;
+        height: 50px;
+    }
+    .almond-section {
+        height: 55vh;
+    }
+    .almond {
+        position: relative;
+        top: 20%;
+        left: 5%;
+    }
+    .too-section {
+        height: 160vh;
+    }
+    .too-section h1 {
+        font-size: 16px;
+    }
+    .divone {
+        width: 20px;
+        height: 2px;
+    }
+    .divtwo {
+        flex-wrap: wrap;
+    }
+    .divtwo h5 {
+        font-size: 12px;
+    }
+    .divtwo button {
+        font-size: 10px;
+        width: 160px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    .popcorn {
+        flex-wrap: wrap;
+    }
+    .popcornleft h5 {
+        font-size: 12px;
+    }
+    .popcornleft h1 {
+        font-size: 16px;
+    }
+    .popcornleft button {
+        font-size: 10px;
+        width: 150px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .bars {
+        width: 260px;
+        height: 420px;
+    }
+    .bars h5 {
+        font-size: 12px;
+    }
+    .bars h4 {
+        font-size: 14px;
+        margin-bottom: 30px;
+
+    }
+    .bars img {
+        width: 200px;
+        height: 200px;
+    }
+    .bars button {
+        font-size: 8px;
+        width: 120px;
+        height: 50px;
+    }
+    .fo-section h5 {
+        font-size: 12px;
+    }
+    .fo-section h3 {
+        font-size: 14px;
+    }
+    .fo-section h1 {
+        font-size: 16px;
+    }
+    .fo-section button {
+        font-size: 10px;
+        width: 150px;
+        height: 50px;
+    }
+    footer {
+        height: 95vh;
+    }
+    .footerone li {
+        opacity: 0;
+    }
+    .footertoo {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .footertoo h5 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .footertoo i {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .footertoo li {
+        margin-right: 12px;
+    }
+    .footerthre {
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: 10%;
+
+    }
+    .footerthre h5 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .footerthre button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footerthre h4 {
+        font-size:16px;
+        text-align: center;
+    }
+    .footerthre b {
+        opacity: 0.5;
+    }
+    hr {
+        opacity: 0;
+    }
+    .footerfo {
+        margin-top: 180px;
+        width: 90%;
+
+    }
+    .footerfo h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .footerfo button {
+        position: relative;
+        left: 30%;
+        
+    }
+
+}
